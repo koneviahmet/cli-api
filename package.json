@@ -1,0 +1,21 @@
+{
+  "name": "cli-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cli-api": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.0",
+    "commander": "^5.1.0",
+    "lodash": "^4.17.15",
+    "prompts": "^2.3.2"
+  }
+}
