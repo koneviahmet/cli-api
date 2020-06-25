@@ -13,7 +13,7 @@ const dizin = process.env.PWD;
 
 /* bu uygulamanın yüklü olduğu dizin */
 const dir = __dirname;
-
+if(process.env.OS == "Windows_NT"){ dir = slash(dir);}
 
 
 const sor = (table_name) => {

@@ -3,7 +3,7 @@ const fs = require('fs');
 /* bu uygulamanın yüklü olduğu dizin */
 let dir = __dirname;
 dir = dir.replace("/create", "");
-
+if(process.env.OS == "Windows_NT"){ dir = slash(dir);}
 
 const copy_package = (page, where) => {
   return new Promise((resolve, reject) => {
